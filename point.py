@@ -14,9 +14,6 @@ class Point:
 
     def dist(self, other):
         return math.sqrt(self.dist_sq(other))
-    
-    def __getitem__(self, item):
-        return self.coords[item]
 
     def __len__(self):
         return len(self.coords)
